@@ -49,4 +49,4 @@ file gambar asli tidak disertakan dalam kode sumber yang diberikan. Ganti ketiga
 - `/about` — Tentang & mengenal daun kelor
 - `/recipe` — Resep puding daun kelor
 
-Navbar menggunakan tautan hash (`/#gizi`, `/about#kelor`, dst.) untuk anchor di dalam masing-masing halaman.
+Navbar menggunakan tautan hash (`/#gizi`, `/about#kelor`, dst.) untuk anchor di dalam masing-masing halaman..
