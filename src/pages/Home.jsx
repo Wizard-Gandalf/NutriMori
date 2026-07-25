@@ -76,8 +76,7 @@ function VideoSection() {
                 2026 di Desa Jaten.
               </p>
               <div className="flex gap-4" style={{ marginTop: 18 }}>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>⏱ 5 MENIT</span>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>📍 DESA JATEN</span>
+                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>3 MENIT</span>
               </div>
             </div>
           </div>
