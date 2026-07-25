@@ -179,6 +179,8 @@ function WhyKelor() {
   );
 }
 
+export { AboutIntro, WhyKelor };
+
 export default function About() {
   return (
     <>

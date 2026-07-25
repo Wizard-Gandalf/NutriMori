@@ -1,17 +1,16 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { FONT_DISPLAY } from "../utils/theme";
 import { C } from "../utils/theme";
 
 const links = [
-  ["/", "Beranda"],
-  ["/about", "Tentang"],
-  ["/about#kelor", "Daun Kelor"],
-  ["/#gizi", "Kandungan Gizi"],
-  ["/recipe", "Resep"],
-  ["/#video", "Video"],
-  ["/#faq", "FAQ"],
-  ["/#kontak", "Kontak"],
+  ["#beranda", "Beranda"],
+  ["#tentang", "Tentang"],
+  ["#kelor", "Daun Kelor"],
+  ["#gizi", "Kandungan Gizi"],
+  ["#resep", "Resep"],
+  ["#video", "Video"],
+  ["#faq", "FAQ"],
+  ["#kontak", "Kontak"],
 ];
 
 export default function Navbar() {
@@ -31,8 +30,8 @@ export default function Navbar() {
         className="flex items-center justify-between gap-4"
         style={{ maxWidth: 1080, margin: "0 auto", padding: "14px 20px", position: "relative" }}
       >
-        <Link
-          to="/"
+        <a
+          href="#beranda"
           className="flex items-center gap-2"
           style={{ fontFamily: FONT_DISPLAY, fontWeight: 600, fontSize: 19, color: "#fff", textDecoration: "none" }}
         >
@@ -41,7 +40,7 @@ export default function Navbar() {
             <path d="M12 6v14" stroke={C.forest} strokeWidth="1.4" strokeLinecap="round" />
           </svg>
           NutriMori
-        </Link>
+        </a>
 
         <ul className="hidden md:flex gap-0 list-none m-0 p-0">
           {links.map(([href, label]) => (

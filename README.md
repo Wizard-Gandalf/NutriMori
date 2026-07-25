@@ -43,10 +43,17 @@ src/
 file gambar asli tidak disertakan dalam kode sumber yang diberikan. Ganti ketiga file ini dengan foto asli
 (daun kelor, puding, logo NutriMori) — nama file dan lokasi impor sudah disiapkan, jadi tinggal ditimpa.
 
+## Deploy ke Vercel
+
+Karena routing (`/`, `/about`, `/recipe`) ditangani di sisi browser oleh `react-router-dom`, Vercel perlu
+diberitahu untuk selalu menyajikan `index.html` untuk semua path, bukan mencari file fisik bernama `recipe`
+atau `about`. Ini sudah diatur lewat `vercel.json` di root project — jangan dihapus, kalau tidak halaman
+`/recipe` dan `/about` akan 404 saat dibuka langsung atau di-refresh.
+
 ## Routing
 
 - `/` — Beranda (Home)
 - `/about` — Tentang & mengenal daun kelor
 - `/recipe` — Resep puding daun kelor
 
-Navbar menggunakan tautan hash (`/#gizi`, `/about#kelor`, dst.) untuk anchor di dalam masing-masing halaman..
+Navbar menggunakan tautan hash (`/#gizi`, `/about#kelor`, dst.) untuk anchor di dalam masing-masing halaman.

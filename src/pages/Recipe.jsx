@@ -32,6 +32,8 @@ function Tips({ tips }) {
   );
 }
 
+export { Tips };
+
 export default function Recipe() {
   return (
     <>

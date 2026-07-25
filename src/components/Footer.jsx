@@ -30,10 +30,10 @@ export default function Footer() {
             <h3 style={{ fontSize: 16, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 600, margin: 0 }}>Jelajahi</h3>
             <ul className="grid gap-3 list-none m-0 p-0" style={{ marginTop: 16 }}>
               {[
-                ["/about", "Tentang NutriMori"],
-                ["/#gizi", "Kandungan Gizi"],
-                ["/recipe", "Resep Puding"],
-                ["/#faq", "FAQ"],
+                ["#tentang", "Tentang NutriMori"],
+                ["#gizi", "Kandungan Gizi"],
+                ["#resep", "Resep Puding"],
+                ["#faq", "FAQ"],
               ].map(([href, label]) => (
                 <li key={href} style={{ fontSize: 14 }}>
                   <a href={href} style={{ color: "inherit", textDecoration: "none" }}>
@@ -52,14 +52,14 @@ export default function Footer() {
                   <circle cx="12" cy="12" r="4" />
                   <circle cx="17.5" cy="6.5" r="1" />
                 </svg>
-                @kkndesajaten_undip
+                @kkndesajaten.undip
               </li>
               <li className="flex items-center gap-2.5" style={{ fontSize: 14 }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={C.moringaLight} strokeWidth="1.6">
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <path d="M3 7l9 6 9-6" />
                 </svg>
-                @kknjatenundip
+                kknjaten2026@undip.ac.id
               </li>
               <li className="flex items-center gap-2.5" style={{ fontSize: 14 }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={C.moringaLight} strokeWidth="1.6">
@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-between items-center flex-wrap gap-2.5" style={{ padding: "22px 0 30px", fontSize: 12.5, color: "rgba(255,255,255,0.5)" }}>
           <span>© 2026 NutriMori — KKN TIM II UNDIP Desa Jaten</span>
-          <span>dibuat dengan kepedulian untuk gizi anak Indonesia</span>
+          <span>dibuat dengan 🌿 untuk gizi anak Indonesia</span>
         </div>
       </div>
     </footer>

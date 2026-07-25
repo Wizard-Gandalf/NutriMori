@@ -1,5 +1,5 @@
 import { C, FONT_DISPLAY, FONT_MONO } from "../utils/theme";
-import { Eyebrow, Btn } from "./Shared";
+import { Eyebrow } from "./Shared";
 import heroImg from "../assets/hero.jpg";
 
 export default function Hero() {
@@ -56,17 +56,7 @@ export default function Hero() {
               Media edukasi digital mengenai pemanfaatan daun kelor sebagai pangan bergizi dalam mendukung pemenuhan
               gizi anak dan pencegahan stunting.
             </p>
-            <div className="flex flex-wrap gap-3" style={{ marginTop: 32 }}>
-              <Btn variant="primary" href="/about#kelor">
-                Pelajari Daun Kelor
-              </Btn>
-              <Btn variant="ghost" href="/recipe">
-                Lihat Resep
-              </Btn>
-              <Btn variant="ghost" href="/#video">
-                Tonton Tutorial
-              </Btn>
-            </div>
+
           </div>
           <div
             style={{

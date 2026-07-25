@@ -1,5 +1,10 @@
 import Hero from "../components/Hero";
 import NutritionGrid from "../components/NutritionCard";
+import RecipeCard from "../components/RecipeCard";
+import FAQ from "../components/FAQ";
+import { AboutIntro, WhyKelor } from "./About";
+import { Tips } from "./Recipe";
+import { pudingKelor } from "../data/recipes";
 import { VeinDivider, Eyebrow, Btn } from "../components/Shared";
 import { Reveal } from "../hooks/useReveal";
 import { C, FONT_DISPLAY, FONT_MONO } from "../utils/theme";
@@ -120,9 +125,15 @@ export default function Home() {
     <>
       <Hero />
       <VeinDivider />
+      <AboutIntro />
+      <WhyKelor />
+      <VeinDivider />
       <NutritionGrid />
+      <RecipeCard recipe={pudingKelor} />
       <VeinDivider />
       <VideoSection />
+      <Tips tips={pudingKelor.tips} />
+      <FAQ />
       <DownloadCTA />
     </>
   );
