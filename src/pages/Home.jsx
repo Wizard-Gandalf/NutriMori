@@ -71,8 +71,8 @@ function VideoSection() {
                 2026 di Desa Jaten.
               </p>
               <div className="flex gap-4" style={{ marginTop: 18 }}>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}> 2 MENIT</span>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}> DESA JATEN</span>
+                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>⏱ 5 MENIT</span>
+                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>📍 DESA JATEN</span>
               </div>
             </div>
           </div>
@@ -105,12 +105,7 @@ function DownloadCTA() {
                 Simpan salinan digital leaflet agar materi edukasi tetap bisa diakses kapan pun dibutuhkan.
               </p>
             </div>
-            <Btn
-              variant="primary"
-              onClick={() =>
-                alert("File leaflet PDF telah disiapkan oleh Tim KKN dan dapat diunduh melalui tautan resmi NutriMori.")
-              }
-            >
+            <Btn variant="primary" href="/leaflet-nutrimori.pdf" download="Leaflet-NutriMori.pdf">
               ⬇ Download Leaflet PDF
             </Btn>
           </div>

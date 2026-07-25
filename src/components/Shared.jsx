@@ -22,7 +22,7 @@ export function Eyebrow({ children, light }) {
   );
 }
 
-export function Btn({ children, variant = "primary", onClick, href }) {
+export function Btn({ children, variant = "primary", onClick, href, download }) {
   const base = {
     fontFamily: FONT_BODY,
     fontWeight: 600,
@@ -52,6 +52,7 @@ export function Btn({ children, variant = "primary", onClick, href }) {
   return (
     <Tag
       href={href}
+      download={download}
       onClick={onClick}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
