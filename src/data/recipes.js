@@ -15,7 +15,8 @@ export const pudingKelor = {
   steps: [
     ["Rebus daun kelor", "Rebus daun kelor selama 2–3 menit hingga layu, kemudian tiriskan."],
     ["Haluskan dengan blender", "Masukkan daun kelor ke dalam blender, tambahkan sedikit air, lalu blender hingga halus."],
-    ["Encerkan santan", "Encerkan santan dengan sekitar 450 ml air, aduk rata. Tambahkan gula, aduk hingga larut."],
+    ["Encerkan santan", "Encerkan santan dengan sekitar 450 ml air, aduk rata."],
+    ["Beri rasa", "Tambahkan gula, lalu aduk hingga larut."],
     ["Campurkan daun kelor", "Masukkan daun kelor yang telah dihaluskan ke dalam larutan santan."],
     ["Masak adonan", "Tambahkan vanili, agar-agar bubuk plain, dan sedikit garam. Aduk rata sampai mendidih."],
     ["Diamkan sejenak", "Setelah matang, diamkan selama 1–2 menit sebelum dituang."],
