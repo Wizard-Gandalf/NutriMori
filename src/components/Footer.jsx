@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-between items-center flex-wrap gap-2.5" style={{ padding: "22px 0 30px", fontSize: 12.5, color: "rgba(255,255,255,0.5)" }}>
           <span>© 2026 NutriMori — KKN TIM II UNDIP Desa Jaten</span>
-          <span>dibuat dengan kepedulian untuk gizi anak Indonesia</span>
+          <span>dibuat dengan 🌿 untuk gizi anak Indonesia</span>
         </div>
       </div>
     </footer>
