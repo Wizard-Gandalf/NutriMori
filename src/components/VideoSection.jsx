@@ -92,8 +92,8 @@ export default function VideoSection() {
                 {VIDEO_DESCRIPTION}
               </p>
               <div className="flex gap-4" style={{ marginTop: 18 }}>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>⏱ 5 MENIT</span>
-                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}>📍 DESA JATEN</span>
+                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}> 1 MENIT</span>
+                <span style={{ fontFamily: FONT_MONO, fontSize: 12, color: C.moringaLight }}> KKN DESA JATEN</span>
               </div>
             </div>
           </div>
