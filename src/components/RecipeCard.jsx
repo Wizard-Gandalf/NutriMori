@@ -72,8 +72,8 @@ export default function RecipeCard({ recipe }) {
 
         <Reveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8" style={{ marginBottom: 56 }}>
-            <ListCard title="🌿 Bahan (Ingredients)" list={bahan} />
-            <ListCard title="🔧 Alat (Equipment)" list={alat} />
+            <ListCard title=" Bahan (Ingredients)" list={bahan} />
+            <ListCard title=" Alat (Equipment)" list={alat} />
           </div>
         </Reveal>
 
